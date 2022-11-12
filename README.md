@@ -1,32 +1,29 @@
-Memories
+# Memories
 
+## 1- Terminal commands
+```
 mkdir memories 
-
 cd memories 
-
 mkdir client 
-
+mkdir server
 cd client 
-
 npx npx create-react-app .
-
 cd ../server 
-
 touch index.js 
-
 npm init -y 
-
 npm install body-parser cross express mongoose nodemon
-
 code ../.
+```
 
-body-parser : enable us to send post requests
+## 1- Clarifications
 
-cross : enable cross origin requests
+1. body-parser : enable us to send post requests
 
-express : for creating the routing of our application
+2. cross : enable cross origin requests
 
-mongoose : to create models for our posts 
+3. express : for creating the routing of our application
 
-nodemon : to do not manually reset the server every time we make 
+4. mongoose : to create models for our posts 
+
+5. nodemon : to do not manually reset the server every time we make 
 a change
